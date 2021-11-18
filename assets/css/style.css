@@ -102,4 +102,19 @@ div#lection{
     background-color: #25975a80;
 }
 
+.div-tabel div:hover{
+    border: 2px solid #25975A;
+}
 
+.tabel-info{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.tabel-info span{
+    color: white;
+    font-size: 12px;
+    padding: 0 7px;
+    font-weight: bold;
+    line-height: 24px;
+}
