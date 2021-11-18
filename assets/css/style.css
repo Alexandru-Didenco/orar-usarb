@@ -87,5 +87,19 @@ button#active-button{
     height: 200px;
 }
 
+.div-tabel div{
+    background-color: white;
+    border: 0.5px solid #33333366;
+    color: white;
+}
+
+div#tabel-dates{
+    border: 0.5px solid white;
+    background-color: #25975A;
+}
+
+div#lection{
+    background-color: #25975a80;
+}
 
 
