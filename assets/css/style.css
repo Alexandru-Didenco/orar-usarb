@@ -79,5 +79,13 @@ button#active-button{
     height: 36px;
 }
 
+.div-tabel{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    height: 200px;
+}
+
 
 
