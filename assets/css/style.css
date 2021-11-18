@@ -5,6 +5,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
+    color: #333333;
 }
 
 /*Section Main*/
@@ -13,4 +14,67 @@ section#main{
     display: grid;
     grid-template-columns: 5fr 9fr;
     gap: 50px;
+}
+
+/*Section 1*/
+
+.div-titlu{
+    background-color: white;
+    height: 50px;
+    text-align: center;
+}
+
+.div-titlu h4{
+    padding: 10px;
+    font-size: 24px;
+}
+
+.div-buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.div-buttons button{
+    cursor: pointer;
+    background-color: #25975A;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin-top: 25px;
+    border: 0;
+}
+
+.div-buttons button:hover{
+    background-color: white;
+    color: #333333;
+}
+
+button#active-button{
+    background-color: white;
+    color: #333333;
+}
+.section1 input{
+    border-radius: 0;
+    width: 428.567px;
+    border: 0;
+    height: 36px;
+    margin-top: 25px;
+}
+
+
+.select-grupa{
+    margin-top: 25px;
+    width: 432.5px;
+    border: 0;
+    font-size: 16px;
+    color: #33333366;
+}
+
+.select-ziua{
+    margin-top: 25px;
+    width: 432.5px;
+    border: 0;
+    font-size: 16px;
+    height: 36px;
 }
