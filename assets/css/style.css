@@ -27,6 +27,7 @@ section#main{
 .div-titlu h4{
     padding: 10px;
     font-size: 24px;
+    color: #333333;
 }
 
 .div-buttons{
@@ -43,6 +44,7 @@ section#main{
     padding: 10px;
     margin-top: 25px;
     border: 0;
+    font-weight: bold;
 }
 
 .div-buttons button:hover{
@@ -117,4 +119,56 @@ div#lection{
     padding: 0 7px;
     font-weight: bold;
     line-height: 24px;
+}
+
+/*Section 1*/
+
+.section2{
+    text-align: center;
+}
+
+.section2 img{
+    text-align: center;
+    width: 150px;
+    height: 100px;
+}
+
+.section2 h4{
+    font-size: 24px;
+    color: white;
+}
+
+.lections-tabel{
+
+}
+
+.lt-rows{
+    display: grid;
+    grid-template-columns: 2fr 7fr;
+    min-height: 50px;
+    background-color: white;
+    color: #333333d0;
+    border: 0.5px solid #33333366;
+}
+
+.lt-rows:hover{
+    background-color: #25975A;
+    color: white;   
+}
+
+.lt-column1{
+    color: white;
+    background-color: #25975A;
+    border: 0.5px solid white;
+    border-right: 0;
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+}
+
+.lt-column2 {
+    border-left: 0;
+}
+
+.lt-column2 p{
+    margin: 5px;
 }
