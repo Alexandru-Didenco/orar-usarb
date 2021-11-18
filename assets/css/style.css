@@ -71,10 +71,13 @@ button#active-button{
     color: #33333366;
 }
 
-.select-ziua{
+.select-hide{
     margin-top: 25px;
     width: 432.5px;
     border: 0;
     font-size: 16px;
     height: 36px;
 }
+
+
+
